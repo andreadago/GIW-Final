@@ -122,10 +122,10 @@ public class App
 			String lm = split[1];
 			String obj = null;
 
-			if(i==1701)
+			if(i==2501)
 				break;
 
-			if(i >= 1500) {
+			if(i >= 1701) {
 				search.getBing(subj, lm, obj, classifier);
 			}
 
