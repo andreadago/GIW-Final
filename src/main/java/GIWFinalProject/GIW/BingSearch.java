@@ -18,10 +18,10 @@ public class BingSearch {
 	 * @throws Exception
 	 */
 
-	public static void getBing(String subject, String languageModel, String object, AbstractSequenceClassifier<CoreLabel> classifier) throws Exception {
+	public static void getBing(String mid1, String subject, String languageModel, String object, AbstractSequenceClassifier<CoreLabel> classifier) throws Exception {
 
 		HttpClient httpclient = new DefaultHttpClient();
-		String accountKey = ":5g1Ja1VMoq1IvWqOAporJ5vXEx41HFzXQuyn0MAEyIg=";
+		String accountKey = ":Q7DBohTyS3b/WXF0uVAXkJ+C8Ng6hdabjCY+3dJ3Iz8=";
 		byte[] accountKeyBytes = Base64.encodeBase64(accountKey.getBytes());
 		String accountKeyEnc = new String(accountKeyBytes);
 
@@ -58,11 +58,11 @@ public class BingSearch {
 			if(object != null) {
 				parsedResults = StringUtils.parseResults(StringUtils.parseJSON(responseBody, subject, sub, object));
 			} else {
-				parsedResults = StringUtils.parseResults(StringUtils.parseJSON(responseBody, subject, sub, classifier));
+				parsedResults = StringUtils.parseResults(StringUtils.parseJSON(mid1, responseBody, subject, sub, classifier));
 			}
 
 			/*Write a file with search results*/
-			FileUtils.appendWrite(parsedResults, "SearchResultsSecondPart3.txt");
+			FileUtils.appendWrite(parsedResults, "SearchResultsSecondPart4.txt");
 
 			System.out.println(parsedResults);
 

@@ -98,7 +98,7 @@ public class StringUtils {
 	 * @throws ClassCastException 
 	 */
 
-	public static String parseJSON(String responseBody, String subject, String subString, AbstractSequenceClassifier<CoreLabel> classifier) throws ClassCastException, ClassNotFoundException, IOException {
+	public static String parseJSON(String mid1, String responseBody, String subject, String subString, AbstractSequenceClassifier<CoreLabel> classifier) throws ClassCastException, ClassNotFoundException, IOException {
 		String parsedBody = "";
 		JSONArray obj = new JSONObject(responseBody).getJSONObject("d").getJSONArray("results");
 
@@ -144,7 +144,7 @@ public class StringUtils {
 							//							System.out.println(k);
 							int index2 = k.indexOf("<PERSON>");
 
-							parsedBody += subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
+							parsedBody += mid1 + "\t" + subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
 							nameFound = true;
 						}
 					}
@@ -184,7 +184,7 @@ public class StringUtils {
 								//							System.out.println(k);
 								int index2 = k.indexOf("<PERSON>");
 
-								parsedBody += subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
+								parsedBody += mid1 + "\t" + subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
 								nameFound = true;
 							}
 						}
