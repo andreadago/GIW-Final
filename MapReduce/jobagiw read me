@@ -1,0 +1,8 @@
+To execute a mapreduce job:
+after setting up Hadoop from command line digit
+
+for first job
+hadoop jar /fileJarPath/jobAgiw.jar jobagiw.JobAgiw /input /output
+
+for second job 
+hadoop jar /fileJarPath/jobAgiw.jar jobagiw2.JobAgiw2 /input /output

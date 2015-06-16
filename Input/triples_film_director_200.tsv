@@ -1,0 +1,200 @@
+m.03hxsv	Harry Potter and the Half-Blood Prince	m.06_n1_	David Yates	film.film.directed_by
+m.04vr_f	The Departed	m.04sry	Martin Scorsese	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.075wx7_	Eclipse	m.026shf9	David Slade	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0209hj	Gandhi	m.0kr5_	Richard Attenborough	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.0168ls	Spartacus	m.06mn7	Stanley Kubrick	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0404j37	The Hurt Locker	m.01f8ld	Kathryn Bigelow	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.produced_by
+m.011yxg	Moulin Rouge!	m.013tcv	Baz Luhrmann	film.film.produced_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0cd2vh9	X-Men: First Class	m.030_00	Matthew Vaughn	film.film.written_by,film.film.directed_by
+m.0cp0790	Barney's Version	m.09tpg9	Richard J. Lewis	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor,film.film.directed_by
+m.063fh9	The Chronicles of Narnia: Prince Caspian	m.04bz4n	Andrew Adamson	film.film.produced_by,film.film.written_by,film.film.directed_by
+m.049xgc	The Aviator	m.04sry	Martin Scorsese	film.film.directed_by,film.film.executive_produced_by,film.film.starring..film.performance.actor,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0cc5qkt	War Horse	m.06pj8	Steven Spielberg	film.film.produced_by,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0j8f09z	Beasts of the Southern Wild	m.04p6j3p	Benh Zeitlin	film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.music,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.0jqn5	E.T. the Extra-Terrestrial	m.06pj8	Steven Spielberg	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by
+m.04j14qc	Rent	m.01r2c7	Chris Columbus	film.film.produced_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor
+m.0bl06	The Greatest Show on Earth	m.01v5h	Cecil B. DeMille	award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor,film.film.produced_by,film.film.directed_by
+m.01shy7	Zoolander	m.0mdqp	Ben Stiller	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.produced_by,film.film.story_by,film.film.starring..film.performance.actor
+m.05zy2cy	Tron: Legacy	m.076tz76	Joseph Kosinski	film.film.directed_by
+m.047vnkj	2012	m.032v0v	Roland Emmerich	film.film.written_by,film.film.directed_by,film.film.executive_produced_by
+m.05szq8z	Clash of the Titans	m.05yw6q	Louis Leterrier	film.film.directed_by
+m.0cc846d	Captain America: The First Avenger	m.0bbkw5	Joe Johnston	film.film.executive_produced_by,film.film.directed_by
+m.0bt3j9	Hairspray	m.0bq9hs	Adam Shankman	film.film.executive_produced_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0bth54	Avatar	m.03_gd	James Cameron	film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.produced_by,film.film.edited_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.026p4q7	The Curious Case of Benjamin Button	m.027zz	David Fincher	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.08gsvw	Quantum of Solace	m.0514d3	Marc Forster	film.film.directed_by
+m.06_x996	Up in the Air	m.0c00lh	Jason Reitman	film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.produced_by
+m.0h51_mt	Les Misérables	m.02z026r	Tom Hooper	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.064lsn	The Pianist	m.06b_0	Roman Polański	film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0cz_ym	American Gangster	m.06chf	Ridley Scott	film.film.directed_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.062zm5h	The Avengers	m.01vz80y	Joss Whedon	film.film.directed_by,film.film.written_by,film.film.story_by
+m.0j6b5	Spirited Away	m.0534v	Hayao Miyazaki	film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by
+m.09z3ns	Junebug	m.0fs8kc	Phil Morrison	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.03ct7jd	Eagle Eye	m.02rf5tm	D.J. Caruso	film.film.directed_by
+m.0661m4p	Men in Black 3	m.01qg7c	Barry Sonnenfeld	film.film.starring..film.performance.actor,film.film.directed_by
+m.0bh8tgs	Battleship	m.064jjy	Peter Berg	film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.0421x6d	Confessions of a Shopaholic	m.024n1g	P. J. Hogan	film.film.directed_by
+m.07024	Saving Private Ryan	m.06pj8	Steven Spielberg	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,film.film.directed_by
+m.03cw411	The Reader	m.02mdfr	Stephen Daldry	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0h95927	Silver Linings Playbook	m.06m6z6	David O. Russell	film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.0ch26b_	Hugo	m.04sry	Martin Scorsese	film.film.starring..film.performance.actor,film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.011yqc	L.A. Confidential	m.0184jw	Curtis Hanson	film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by
+m.07pd_j	American Pie	m.034bgm	Chris Weitz	film.film.directed_by,film.film.produced_by,film.film.starring..film.performance.actor
+m.0ds2n	Independence Day	m.032v0v	Roland Emmerich	film.film.directed_by,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.executive_produced_by
+m.0cc5mcj	Cowboys & Aliens	m.01twdk	Jon Favreau	film.film.directed_by,film.film.executive_produced_by
+m.0ddt_	Star Wars Episode I: The Phantom Menace	m.0343h	George Lucas	film.film.written_by,film.film.executive_produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0dtfn	Star Wars Episode IV: A New Hope	m.0343h	George Lucas	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.edited_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.written_by,film.film.executive_produced_by,film.film.story_by
+m.042zrm	Friday Night Lights	m.064jjy	Peter Berg	film.film.directed_by,film.film.written_by
+m.0dgpwnk	This Must Be the Place	m.0267x9y	Paolo Sorrentino	film.film.written_by,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.story_by
+m.026qnh6	Australia	m.013tcv	Baz Luhrmann	film.film.story_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.01cycq	Starship Troopers	m.0hj15	Paul Verhoeven	film.film.directed_by
+m.05hjnw	Brokeback Mountain	m.0h1p	Ang Lee	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.047d21r	The Fighter	m.06m6z6	David O. Russell	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.05qbckf	Iron Man 2	m.01twdk	Jon Favreau	film.film.starring..film.performance.actor,film.film.executive_produced_by,film.film.directed_by,film.film.written_by
+m.05zvzf3	A Prophet	m.0bthqb	Jacques Audiard	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.017gl1	The Lord of the Rings: The Fellowship of the Ring	m.0js9s	Peter Jackson	film.film.directed_by,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.starring..film.performance.actor,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.produced_by
+m.0125xq	The Fifth Element	m.0b478	Luc Besson	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by,film.film.story_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.03176f	Harry Potter and the Philosopher's Stone	m.01r2c7	Chris Columbus	film.film.executive_produced_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.047svrl	Funny People	m.05ty4m	Judd Apatow	film.film.produced_by,film.film.written_by,film.film.directed_by
+m.031786	Harry Potter and the Goblet of Fire	m.03dpdl	Mike Newell	film.film.directed_by
+m.01hv3t	The Truman Show	m.0c3ns	Peter Weir	film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.02pth35	Harry Potter and the Deathly Hallows - Part I	m.06_n1_	David Yates	film.film.directed_by
+m.02p86pb	Born on the Fourth of July	m.05kfs	Oliver Stone	film.film.produced_by,film.film.directed_by,film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.starring..film.performance.actor
+m.07vn_9	Zodiac	m.027zz	David Fincher	film.film.directed_by
+m.061681	The Bourne Ultimatum	m.06cxyj	Paul Greengrass	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.produced_by
+m.01hqhm	Magnolia	m.026670	Paul Thomas Anderson	film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.047tsx3	The Notebook	m.0615dp	Nick Cassavetes	film.film.directed_by
+m.027r9t	Almost Famous	m.01vb6z	Cameron Crowe	film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by
+m.0639bg	The Chronicles of Narnia: The Lion, the Witch and the Wardrobe	m.04bz4n	Andrew Adamson	film.film.executive_produced_by,film.film.directed_by,film.film.written_by
+m.0gkz3nz	Moonrise Kingdom	m.02ld6x	Wes Anderson	film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.04b7hj	Me, Myself & Irene	m.03ysmg	Bobby Farrelly	film.film.produced_by,film.film.written_by,film.film.directed_by
+m.0fpv_3_	Life of Pi	m.0h1p	Ang Lee	film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.04jpg2p	Alice in Wonderland	m.07rd7	Tim Burton	film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.0fq0b9f	The Nutcracker in 3D	m.03lhhq	Andrei Konchalovsky	film.film.directed_by,film.film.written_by,film.film.produced_by
+m.01mgw	Crouching Tiger, Hidden Dragon	m.0h1p	Ang Lee	film.film.directed_by,film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0dr_4	Titanic	m.03_gd	James Cameron	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by,film.film.directed_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.edited_by,film.film.starring..film.performance.actor
+m.01gwk3	Terminator 3: Rise of the Machines	m.0760n7	Jonathan Mostow	film.film.directed_by
+m.017gm7	The Lord of the Rings: The Two Towers	m.0js9s	Peter Jackson	film.film.starring..film.performance.actor,film.film.written_by,film.film.directed_by,film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0ds35l9	Bridesmaids	m.062ftr	Paul Feig	film.film.directed_by,film.film.executive_produced_by,film.film.starring..film.performance.actor
+m.087pfc	Click	m.027c824	Frank Coraci	film.film.directed_by,film.film.starring..film.performance.actor
+m.027pfg	Big Fish	m.07rd7	Tim Burton	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.03k9bl	White Chicks	m.02mc79	Keenen Ivory Wayans	film.film.written_by,film.film.produced_by,film.film.directed_by,film.film.story_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.017jd9	The Lord of the Rings: The Return of the King	m.0js9s	Peter Jackson	award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor,film.film.produced_by,film.film.written_by,film.film.directed_by
+m.031t2d	Men in Black II	m.01qg7c	Barry Sonnenfeld	film.film.directed_by,film.film.starring..film.performance.actor
+m.0640m69	Grown Ups	m.086mp8	Dennis Dugan	film.film.directed_by,film.film.starring..film.performance.actor
+m.0cmc26r	A Dangerous Method	m.026fd	David Cronenberg	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.02cbhg	Cold Mountain	m.02hfp_	Anthony Minghella	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.written_by
+m.0gvsynb	Harry Potter and the Deathly Hallows – Part 2	m.06_n1_	David Yates	film.film.directed_by
+m.08phg9	Star Trek	m.01xndd	J.J. Abrams	film.film.directed_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0kv238	The Wolfman	m.0bbkw5	Joe Johnston	film.film.directed_by
+m.0209xj	Lost in Translation	m.01_f_5	Sofia Coppola	film.film.produced_by,film.film.written_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.07vf5c	Evita	m.01ycck	Alan Parker	film.film.starring..film.performance.actor,film.film.written_by,film.film.produced_by,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.01xdxy	Toy Story 2	m.04jspq	John Lasseter	film.film.directed_by,film.film.story_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.starring..film.performance.actor
+m.02q5g1z	Revolutionary Road	m.01j2xj	Sam Mendes	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.produced_by
+m.031778	Harry Potter and the Chamber of Secrets	m.01r2c7	Chris Columbus	film.film.executive_produced_by,film.film.directed_by
+m.0gfsq9	I Am Legend	m.0822xc	Francis Lawrence	film.film.directed_by
+m.04pk1f	Charlie and the Chocolate Factory	m.07rd7	Tim Burton	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.03r0g9	Casino Royale	m.035t2x	Martin Campbell	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor
+m.0872p_c	Transformers: Dark of the Moon	m.02qzjj	Michael Bay	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.executive_produced_by
+m.016z5x	Chaplin	m.0kr5_	Richard Attenborough	film.film.produced_by,film.film.directed_by
+m.02fqrf	Batman Begins	m.0184dt	Christopher Nolan	film.film.written_by,film.film.directed_by
+m.03xf_m	Ray	m.052gzr	Taylor Hackford	film.film.story_by,film.film.directed_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0btpm6	The Dark Knight	m.0184dt	Christopher Nolan	film.film.story_by,film.film.written_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.01gkp1	The Royal Tenenbaums	m.02ld6x	Wes Anderson	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.starring..film.performance.actor,film.film.directed_by,film.film.produced_by
+m.0drnwh	Memoirs of a Geisha	m.02hc7q	Rob Marshall	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.07g1sm	The Godfather	m.02vyw	Francis Ford Coppola	film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0292qb	Lara Croft Tomb Raider: The Cradle of Life	m.04flrx	Jan de Bont	film.film.directed_by
+m.09gq0x5	The King's Speech	m.02z026r	Tom Hooper	award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.014kq6	Die Another Day	m.03tg3x	Lee Tamahori	film.film.directed_by
+m.0gwjw0c	Django Unchained	m.0693l	Quentin Tarantino	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor,film.film.directed_by,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.04mcw4	Indiana Jones and the Kingdom of the Crystal Skull	m.06pj8	Steven Spielberg	film.film.directed_by
+m.011ykb	Jerry Maguire	m.01vb6z	Cameron Crowe	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.written_by,film.film.produced_by
+m.0fpkhkz	Melancholia	m.04k25	Lars von Trier	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.011yrp	Life Is Beautiful	m.01tt43d	Roberto Benigni	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by,film.film.story_by,film.film.starring..film.performance.actor
+m.0h6r5	Goodfellas	m.04sry	Martin Scorsese	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.written_by
+m.03q0r1	Cars	m.04jspq	John Lasseter	film.film.story_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.written_by
+m.047csmy	Transformers: Revenge of the Fallen	m.02qzjj	Michael Bay	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.executive_produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.09k56b7	Black Swan	m.017c87	Darren Aronofsky	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0ds3t5x	The Help	m.09kblg_	Tate Taylor	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.written_by,film.film.executive_produced_by
+m.05650n	Happy Feet	m.013t9y	George Miller	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by
+m.0581vn8	District 9	m.0cs6m8	Neill Blomkamp	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by
+m.0gvvm6l	Love	m.041jlr	Michael Haneke	film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.0b76d_m	Anonymous	m.032v0v	Roland Emmerich	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.produced_by
+m.07f_t4	300	m.0852vk	Zack Snyder	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.0b1y_2	Dreamgirls	m.04xn2m	Bill Condon	film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.0fg04	Sleepy Hollow	m.07rd7	Tim Burton	film.film.directed_by
+m.03177r	Harry Potter and the Prisoner of Azkaban	m.0n7v	Alfonso Cuarón	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.052f6t	Fever Pitch	m.03ys2f	Peter Farrelly	film.film.directed_by
+m.050gkf	Cinderella Man	m.0g2lq	Ron Howard	film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.07s846j	The Social Network	m.027zz	David Fincher	award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.020fcn	Master and Commander: The Far Side of the World	m.0c3ns	Peter Weir	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.05nlx4	Pirates of the Caribbean: At World's End	m.080p_h	Gore Verbinski	film.film.directed_by
+m.0f4_l	Pulp Fiction	m.0693l	Quentin Tarantino	film.film.written_by,film.film.starring..film.performance.actor,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.story_by
+m.04h4c9	A Very Long Engagement	m.0k181	Jean-Pierre Jeunet	film.film.written_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0h03fhx	Argo	m.0151w_	Ben Affleck	film.film.starring..film.performance.actor,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.01gglm	Any Given Sunday	m.05kfs	Oliver Stone	film.film.directed_by,film.film.written_by,film.film.executive_produced_by,film.film.starring..film.performance.actor
+m.08zrbl	There Will Be Blood	m.026670	Paul Thomas Anderson	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.directed_by
+m.016dj8	Men in Black	m.01qg7c	Barry Sonnenfeld	film.film.starring..film.performance.actor,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0g4vmj8	Drive	m.0gwj4_	Nicolas Winding Refn	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.057lbk	Fantastic Four	m.05m54k	Tim Story	film.film.directed_by
+m.02rb84n	The Adventures of Tintin: The Secret of the Unicorn	m.06pj8	Steven Spielberg	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.029jt9	Samson and Delilah	m.01v5h	Cecil B. DeMille	film.film.produced_by,film.film.directed_by,film.film.starring..film.performance.actor
+m.0j43swk	Zero Dark Thirty	m.01f8ld	Kathryn Bigelow	award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.produced_by
+m.07cz2	The Matrix	m.03nzd5t	Lana Wachowski	film.film.executive_produced_by,film.film.directed_by,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.04pmnt	The New World	m.0kvqv	Terrence Malick	film.film.written_by,film.film.directed_by
+m.09sh8k	Fantastic Four: Rise of the Silver Surfer	m.05m54k	Tim Story	film.film.directed_by
+m.0340hj	Spider-Man 3	m.072vj	Sam Raimi	film.film.written_by,film.film.directed_by
+m.05p1tzf	The Hangover	m.06q3_4	Todd Phillips	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.starring..film.performance.actor,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.02yvct	Inglourious Basterds	m.058kqy	Eli Roth	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.starring..film.performance.actor,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0gh65c5	Cloud Atlas	m.03nzd5h	Andy Wachowski	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.directed_by,film.film.produced_by
+m.0dzlbx	Iron Man	m.01twdk	Jon Favreau	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.starring..film.performance.actor,film.film.executive_produced_by,film.film.directed_by
+m.05_5_22	Get Him to the Greek	m.03whnyn	Nicholas Stoller	film.film.written_by,film.film.directed_by
+m.092vkg	Capote	m.09yvwb	Bennett Miller	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.06gb1w	X-Men: The Last Stand	m.0162c8	Brett Ratner	film.film.directed_by
+m.0ctb4g	Atonement	m.0b3sdv	Joe Wright	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.031hcx	Harry Potter and the Order of the Phoenix	m.06_n1_	David Yates	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.03f7nt	Collateral	m.04y8r	Michael Mann	film.film.produced_by,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.04n52p6	Sherlock Holmes	m.0mm1q	Guy Ritchie	film.film.directed_by
+m.0b6tzs	No Country for Old Men	m.02kxbwx	Ethan Coen	film.film.directed_by,film.film.edited_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,film.film.written_by
+m.0dgq_kn	The Girl with the Dragon Tattoo	m.027zz	David Fincher	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.01qb559	Con Air	m.0gprt0	Simon West	film.film.directed_by
+m.047gn4y	Prince of Persia: The Sands of Time	m.03dpdl	Mike Newell	film.film.directed_by
+m.0c3z0	Cast Away	m.01f7j9	Robert Zemeckis	film.film.directed_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.044g_k	Superman Returns	m.07nznf	Bryan Singer	film.film.produced_by,film.film.story_by,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0fdv3	Star Wars Episode III: Revenge of the Sith	m.0343h	George Lucas	film.film.starring..film.performance.actor,film.film.written_by,film.film.executive_produced_by,film.film.directed_by
+m.02wgk1	Spider-Man 2	m.072vj	Sam Raimi	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.0bpm4yw	The Dark Knight Rises	m.0184dt	Christopher Nolan	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.produced_by,film.film.story_by,film.film.written_by
+m.02dr9j	King Kong	m.0js9s	Peter Jackson	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.starring..film.performance.actor,film.film.produced_by
+m.0fb7sd	The Kingdom	m.064jjy	Peter Berg	film.film.starring..film.performance.actor,film.film.directed_by
+m.0m313	Shakespeare in Love	m.01z9w2	John Madden	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.02r1c18	A Serious Man	m.02kxbx3	Joel Coen	film.film.produced_by,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,film.film.edited_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.08hmch	X-Men Origins: Wolverine	m.0bvkd3	Gavin Hood	film.film.directed_by
+m.01qb5d	X2	m.07nznf	Bryan Singer	film.film.story_by,film.film.executive_produced_by,film.film.starring..film.performance.actor,film.film.directed_by
+m.0h14ln	Perfume: The Story of a Murderer	m.01_xv9	Tom Tykwer	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,film.film.written_by,film.film.music
+m.09g7vfw	Dark Shadows	m.07rd7	Tim Burton	film.film.directed_by
+m.03hmt9b	Slumdog Millionaire	m.0qf43	Danny Boyle	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.0g5838s	The Impossible	m.03ckzqs	Juan Antonio Bayona	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0bh8yn3	Green Lantern	m.035t2x	Martin Campbell	film.film.directed_by
+m.03cp4cn	Shutter Island	m.04sry	Martin Scorsese	film.film.directed_by,film.film.produced_by
+m.053rxgm	The Expendables	m.0gn30	Sylvester Stallone	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.starring..film.performance.actor,film.film.directed_by,film.film.written_by
+m.0g9lm2	The Queen	m.03nk3t	Stephen Frears	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.06_wqk4	Valentine's Day	m.02ndbd	Garry Marshall	film.film.directed_by,film.film.starring..film.performance.actor
+m.05zlld0	Transformers	m.02qzjj	Michael Bay	film.film.executive_produced_by,film.film.directed_by
+m.0dc_ms	Hellboy	m.063b4k	Guillermo del Toro	film.film.written_by,film.film.directed_by
+m.02vjp3	Sky Captain and the World of Tomorrow	m.03sz8j	Kerry Conran	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by
+m.01cmp9	Chicago	m.02hc7q	Rob Marshall	film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.09q23x	Charlie Wilson's War	m.0hskw	Mike Nichols	film.film.directed_by
+m.011yd2	Apollo 13	m.0g2lq	Ron Howard	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.0g9zljd	A Separation	m.0g5j4t	Asghar Farhadi	film.film.produced_by,award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.directed_by
+m.04w7rn	The Golden Compass	m.034bgm	Chris Weitz	film.film.directed_by,film.film.written_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
+m.09hy79	The Lovely Bones	m.0js9s	Peter Jackson	film.film.produced_by,film.film.directed_by,film.film.written_by,film.film.starring..film.performance.actor
+m.0661ql3	Inception	m.0184dt	Christopher Nolan	film.film.directed_by,film.film.produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner
+m.0642xf3	Percy Jackson & the Olympians: The Lightning Thief	m.01r2c7	Chris Columbus	film.film.directed_by,film.film.produced_by
+m.0czyxs	Watchmen	m.0852vk	Zack Snyder	film.film.starring..film.performance.actor,film.film.directed_by
+m.0gmcwlb	The Artist	m.0gg5tc8	Michel Hazanavicius	film.film.written_by,award.award_winning_work.awards_won..award.award_honor.award_winner,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.edited_by,film.film.directed_by
+m.0pc62	Pearl Harbor	m.02qzjj	Michael Bay	award.award_nominated_work.award_nominations..award.award_nomination.award_nominee,film.film.produced_by,film.film.directed_by
+m.0gxbfy6	Mirror Mirror	m.06dddx	Tarsem Singh	film.film.directed_by
+m.0c0nhgv	Moneyball	m.09yvwb	Bennett Miller	film.film.directed_by
+m.01vksx	Pirates of the Caribbean: The Curse of the Black Pearl	m.080p_h	Gore Verbinski	film.film.directed_by
+m.05pdh86	New Moon	m.034bgm	Chris Weitz	award.award_winning_work.awards_won..award.award_honor.award_winner,film.film.directed_by
+m.09q5w2	Gladiator	m.06chf	Ridley Scott	film.film.directed_by,film.film.executive_produced_by,award.award_nominated_work.award_nominations..award.award_nomination.award_nominee
