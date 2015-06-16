@@ -38,8 +38,7 @@ public class StringUtils {
 	public static String parseJSON(String responseBody, String subject, String subString, String object) {
 		String parsedBody = "";
 		JSONArray obj = new JSONObject(responseBody).getJSONObject("d").getJSONArray("results");
-		//		JSONObject root = new JSONObject(obj.get("d"));
-		//		JSONArray results = root.getJSONArray("results");
+
 		for(int i = 0; i < obj.length(); i++) {
 			JSONObject r = obj.getJSONObject(i);
 			String s = r.getString("Description").toLowerCase();
@@ -56,33 +55,14 @@ public class StringUtils {
 				} else { //contains DATE
 					String subString2 = null;
 					subString2 = subString.replace("DATE", "");
-					//					String ORD = "\\b\\d+th\\b";
-					//					String DATE = "(\\b(january|february|march|april|may|june|july|august|september|october|november|december)\\b)|(\\b(jan|feb|marc|apr|may|jun|jul|aug|sep|oct|nov|dec)\\s"+ ORD +")";
-					//					String DATE1 = "(([0-3]\\d|\\d)\\s+" + DATE + "\\b)|(\\b"+ DATE + "\\s+(\\d\\d\\d\\d|\\d\\d))";
-
-					String ORD = "\\b\\d+th\\b";
-					String D = "\\b(january|february|march|april|may|june|july|august|september|october|november|december)\\b";
-					String D1 = "\\b(jan|feb|marc|apr|may|jun|jul|aug|sep|oct|nov|dec)\\s+"+ ORD;
-					String DATE1 = "([0-3]\\d|\\d)\\s+" + D + "\\b";
-					String DATE2 = "\\b"+ D + "\\s+(\\d\\d\\d\\d|\\d\\d)";
-
-					//String DATE = ".*\\s[\\(]?([1-2]\\d\\d\\d)[\\)]?\\s.*";
-
-					//					if(s.matches(D + "\\s+" + subString2.toLowerCase() + "\\s+" + object.toLowerCase()) 
-					//							|| s.matches(D1+ "\\s+" + subString2.toLowerCase() + "\\s+" + object.toLowerCase()) 
-					//							|| s.matches(DATE1 + "\\s+" + subString2.toLowerCase() + "\\s+" + object.toLowerCase()) 
-					//							|| s.matches(DATE2 + "\\s+" + subString2.toLowerCase() + "\\s+" + object.toLowerCase())) {
 					String DATE = ".*" + subject.toLowerCase() + "\\s*.?\\s*[\\(]?([1-2]\\d\\d\\d)[\\)]?\\s*.?\\s" + subString.replace("DATE","").replaceFirst(" ", "").toLowerCase() + "\\s*.?\\s+" + object.toLowerCase() + ".*";
-					//					String DATE2 = ".*" + "The Hurt Locker".toLowerCase() + "\\s*.?\\s*[\\(]?([1-2]\\d\\d\\d)[\\)]?\\s*.?\\s" + "DATE directed by ".replace("DATE","").replaceFirst(" ", "").toLowerCase() + "Kathryn Bigelow".toLowerCase() + ".*";
-
-
+					
 					if(s.matches(DATE)) {
 						parsedBody += subString + "\t" + r.getString("Description")+"\n";
 					}
 				}
 			} else {
 				if(s.contains(subString.toLowerCase() + " " + object.toLowerCase())) {
-					//if(s.contains(subject.toLowerCase()))
 					parsedBody += subString + "\t" + r.getString("Description")+"\n";
 				}
 			}
@@ -98,7 +78,7 @@ public class StringUtils {
 	 * @throws ClassCastException 
 	 */
 
-	public static String parseJSON(String mid1, String responseBody, String subject, String subString, AbstractSequenceClassifier<CoreLabel> classifier) throws ClassCastException, ClassNotFoundException, IOException {
+	public static String parseJSON(String responseBody, String subject, String subString, AbstractSequenceClassifier<CoreLabel> classifier) throws ClassCastException, ClassNotFoundException, IOException {
 		String parsedBody = "";
 		JSONArray obj = new JSONObject(responseBody).getJSONObject("d").getJSONArray("results");
 
@@ -132,37 +112,24 @@ public class StringUtils {
 						if(nameFound) {
 							if(k.startsWith(" and") || k.startsWith("and")) {
 								int index2 = k.indexOf("<PERSON>");
-								
-//								parsedBody = parsedBody.replace(parsedBody.charAt(parsedBody.lastIndexOf("\n")), ' ');
+
 								parsedBody = parsedBody.substring(0, parsedBody.lastIndexOf("\n")-1);
-								
-								
 								parsedBody += " and " + (k.substring(index2+ "<PERSON>".length())) + "\n";
-								//									nameFound = true;
 							}
 						} else {
-							//							System.out.println(k);
 							int index2 = k.indexOf("<PERSON>");
 
-							parsedBody += mid1 + "\t" + subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
+							parsedBody += subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
 							nameFound = true;
 						}
 					}
 				}
 			} else {
 				if(s.contains(subject) && s.toLowerCase().contains(subString)) {
-					//if(s.contains(subject.toLowerCase()))
-					//int index = s.indexOf(subString);
+
 					int index = s.toLowerCase().indexOf(subString) + subString.length();
 					String afterSub = s.substring(index + 1);
-					//					String serializedClassifier = "C:\\Users\\Andrea\\Downloads\\stanford-ner-2014-08-27\\stanford-ner-2014-08-27\\classifiers\\english.all.3class.distsim.crf.ser.gz";
-
-					//					System.out.print(classifier.classifyToString(afterSub, "slashTags", false));
 					String classified = classifier.classifyWithInlineXML(afterSub);
-					//					System.out.println(classified);
-
-					Pattern p = Pattern.compile("<PERSON>.*<\\/PERSON>");
-					Matcher matcher = p.matcher(classified);
 
 					boolean nameFound = false;
 
@@ -173,23 +140,17 @@ public class StringUtils {
 								if(k.startsWith(" and") || k.startsWith("and") || k.startsWith(" &") || k.startsWith("&")) {
 									int index2 = k.indexOf("<PERSON>");
 									
-//									parsedBody = parsedBody.replace(parsedBody.charAt(parsedBody.lastIndexOf("\n")), ' ');
 									parsedBody = parsedBody.substring(0, parsedBody.lastIndexOf("\n"));
-									
-									
 									parsedBody += " and " + (k.substring(index2+ "<PERSON>".length())) + "\n";
-									//									nameFound = true;
 								}
 							} else {
-								//							System.out.println(k);
 								int index2 = k.indexOf("<PERSON>");
 
-								parsedBody += mid1 + "\t" + subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
+								parsedBody += subject + "\t" + subString + "\t" + (k.substring(index2+ "<PERSON>".length())) + "\n";
 								nameFound = true;
 							}
 						}
 					}
-					//					parsedBody += subject + "\t" + subString + "\t" + r.getString("Description")+"\n";
 				}
 			}
 		}
