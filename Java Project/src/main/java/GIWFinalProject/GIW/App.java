@@ -26,34 +26,40 @@ public class App
 
 	public static void main( String[] args ) throws Exception
 	{
-		BingSearch searcher = new BingSearch();
+		try {
+			BingSearch searcher = new BingSearch();
 
-		/*PART 1: LANGUAGE MODEL EVALUATION*/
-		String path = "Queries.txt";
-		lmQuery(path, searcher);
+			/*PART 1: LANGUAGE MODEL EVALUATION*/
+			String path = "Queries.txt";
+			lmQuery(path, searcher);
 
-		/*PART 2.1: SEARCH MISSING VALUES*/
-		String path2 = "QueriesLast50.txt"; //EXAMPLE: Queries of last 50 subject with no object
+			/*PART 2.1: SEARCH MISSING VALUES*/
+			String path2 = "QueriesLast50.txt"; //EXAMPLE: Queries of last 50 subject with no object
 
-		AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier.getClassifier(serializedClassifier);
-		missingValuesQuery(path2, searcher, classifier);
+			AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier.getClassifier(serializedClassifier);
+			missingValuesQuery(path2, searcher, classifier);
 
-		/*PART 2.2: OUTPUT TRIPLES*/
-		IndexCreator.createIndexes(); //Create 2 indexes: films and directors
-		
-		String pathOutput="triplesFound.txt";
+			/*PART 2.2: OUTPUT TRIPLES*/
+			IndexCreator.createIndexes(); //Create 2 indexes: films and directors
 
-		findTriples(pathOutput);//save triples
+			String pathOutput="triplesFound.txt";
 
-		System.out.println("Done.");
+			findTriples(pathOutput);//save triples
+
+			System.out.println("Done.");
+		} catch(Exception ex) {
+			System.out.println("Some error occurred: " + ex.getMessage());
+		}
+
 	}
 
 	/**
 	 * Save triples found in 2 outputs: the first for Freebase known director, second for "suggested" directors.
 	 * @param pathOutput
 	 * @author Daniele Militi
+	 * @throws Exception 
 	 */
-	public static void findTriples(String pathOutput) {
+	public static void findTriples(String pathOutput) throws Exception {
 		try {
 
 			BufferedReader br = new BufferedReader(new FileReader(pathOutput));
@@ -64,14 +70,14 @@ public class App
 			br.close();
 			System.out.println("fine");
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			throw e;
 		}
 	}
 
 
 	/**
 	 * Executes query to get missing values. For the Second Part.
-	 * @param queryPath of the query file formatted: mid1\tsubject\tlanguageModel
+	 * @param queryPath of the query file formatted: subject\tlanguageModel
 	 * @param searcher
 	 * @param Stanford NER classifier
 	 * @throws Exception 

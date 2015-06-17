@@ -33,9 +33,7 @@ public class Searcher {
 	final static String INDEX2_DIRECTORY = "/home/nielo/Scrivania/AgiwProject/index2/";
 	static HashSet<String> found=new HashSet<String>();
 	
-	public static void search(String line){
-
-
+	public static void search(String line) throws Exception{
 		try{
 
 			int hitsPerPage = 50;
@@ -74,14 +72,8 @@ public class Searcher {
 				ScoreDoc[] hitsFilm = collector2.topDocs().scoreDocs;
 				String stringToWrite="";
 
-
-
 				System.out.println("Found " + hitsFilm.length + " hits.");
 				if(hitsFilm.length!=0){
-					//for(int i=0;i<hitsFilm.length;++i) {
-						
-						//System.out.println((i + 1) + ". " + d.get("code") + "\t" + d.get("title")+"\t");
-					//}
 					int docId = hitsFilm[0].doc;
 					Document d = searcher2.doc(docId);
 					stringToWrite+=d.get("code")+" "+d.get("title")+"\t";
@@ -115,26 +107,12 @@ public class Searcher {
 						FileUtils.appendWrite(stringToWrite,"output");
 					}
 					
-					/*
-					for(int i=0;i<hits.length;++i) {
-						int docId = hits[i].doc;
-						Document d = searcher.doc(docId);
-						stringToWrite+=d.get("code")+" "+d.get("name")+" "+d.get("surname")+"\n";
-						System.out.println((i + 1) + ". " + d.get("code") + "\t" + d.get("name")+"\t"+d.get("surname"));
-
-					}*/
-					
 				}
 				found.add(title);
 
 			}
-
-
-
-
-
 		}catch(Exception e){
-			System.out.println(e.getMessage());
+			throw e;
 		}
 
 	}

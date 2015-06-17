@@ -19,6 +19,7 @@ import java.util.zip.GZIPInputStream;
 
 
 
+
 import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
@@ -50,7 +51,7 @@ import org.apache.lucene.util.Version;
  */
 public class IndexCreator {
 
-	public static void createIndexes(){
+	public static void createIndexes() throws Exception{
 		try{
 			String path="/home/nielo/Scrivania/AgiwProject/swaf/filmdirector.tsv";
 			String path2="/home/nielo/Scrivania/input_film_no_object_first50.tsv";
@@ -135,7 +136,7 @@ public class IndexCreator {
 			System.out.println("fine");
 	 
 		}catch(Exception e){
-			System.out.println(e.getMessage());
+			throw e;
 		}
 	}
 
