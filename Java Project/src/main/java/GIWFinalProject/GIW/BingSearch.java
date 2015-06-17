@@ -76,7 +76,7 @@ public class BingSearch {
 
 		}
 		catch (Exception ex) {
-			System.out.println(ex.getMessage());
+			throw ex;
 			//do nothing
 		}
 		finally {

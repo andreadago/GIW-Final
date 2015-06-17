@@ -53,10 +53,10 @@ public class IndexCreator {
 
 	public static void createIndexes() throws Exception{
 		try{
-			String path="/home/nielo/Scrivania/AgiwProject/swaf/filmdirector.tsv";
-			String path2="/home/nielo/Scrivania/input_film_no_object_first50.tsv";
-			final String INDEX_DIRECTORY = "/home/nielo/Scrivania/AgiwProject/index/";
-			final String INDEX2_DIRECTORY = "/home/nielo/Scrivania/AgiwProject/index2/";
+			String path="Input/filmdirector.tsv";
+			String path2="Input/input_film_no_object.tsv";
+			final String INDEX_DIRECTORY = "index/"; //Directors index
+			final String INDEX2_DIRECTORY = "index2/"; //Film index
 			
 			StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_4_9);
 

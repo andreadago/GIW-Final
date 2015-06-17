@@ -29,8 +29,8 @@ import GIWFinalProject.GIW.utils.FileUtils;
  *
  */
 public class Searcher {
-	final static String INDEX_DIRECTORY = "/home/nielo/Scrivania/AgiwProject/index/";
-	final static String INDEX2_DIRECTORY = "/home/nielo/Scrivania/AgiwProject/index2/";
+	final static String INDEX_DIRECTORY = "index/";
+	final static String INDEX2_DIRECTORY = "index2/";
 	static HashSet<String> found=new HashSet<String>();
 	
 	public static void search(String line) throws Exception{

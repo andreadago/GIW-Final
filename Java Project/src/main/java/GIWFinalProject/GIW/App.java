@@ -21,7 +21,7 @@ import edu.stanford.nlp.ling.CoreAnnotations.LMiddleAnnotation;
 
 public class App 
 {
-	static String serializedClassifier = "C:\\Users\\Andrea\\Downloads\\stanford-ner-2014-08-27\\stanford-ner-2014-08-27\\classifiers\\english.all.3class.distsim.crf.ser.gz";
+	static String serializedClassifier = "stanford-ner-2014-08-27/stanford-ner-2014-08-27/classifiers/english.all.3class.distsim.crf.ser.gz";
 
 
 	public static void main( String[] args ) throws Exception
